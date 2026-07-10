@@ -170,5 +170,51 @@ nav{
     font-size: 14px;
 }
 li::marker{
-    color: rgb(44, 44, 213);
+    color: rgb(45, 45, 231);
+}
+
+/* Question */
+.frequently{
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+}
+.question{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 20px auto;
+    gap: 20px;
+    padding: 20px;
+}
+.ques{
+    border: 2px solid rgb(43, 40, 40);
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+/* Sponsors */
+.sponsors{
+    text-align: center;
+    padding: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin: 1px auto;
+    padding: 40px;
+}
+.logo{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+   
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.ph{
+    border-radius: 5px;
 }
