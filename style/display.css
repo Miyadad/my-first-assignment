@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav  */
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+   
+}
+.menu ul{
+    display: flex;
+    gap: 20px; 
+    list-style: none;
+}
+button{
+    background-color: rgb(39, 39, 213);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* hero section */
+.hero{
+    background-image: url("../media/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* height: 600px; */
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+}
+
+.heros{
+    max-width: 700px;
+    text-align: center;
+    color: white;
+}
+
+.heros h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.heros p{
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.heros button{
+    padding: 15px 35px;
+    margin-top: 120px;
+    font-size: 20px;
+}
+
+/* Speaker Section */
+.meet h1{
+   text-align: center;
+   margin: 20px auto;
+}
+.speaker{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px 0;
+    
+}
+.Card{
+   border:1px solid rgb(133, 125, 125);
+   width: 95%;
+   margin: 0 auto;
+   border-radius: 5px;
+}
+.Card h6{
+    color: rgb(64, 64, 240);
+    text-align: left;
+    padding:0 10px;
+}
+.Card h5{
+    color: rgb(122, 117, 117);
+    text-align: left;
+    padding:0 10px;
+}
+.Card h3{
+    text-align: left;
+    padding:0 10px;
+}
+.Card img {
+    width: 100%;
+    object-fit: cover;
+    padding-bottom:5px;
+}
+
+
+
